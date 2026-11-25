@@ -1,0 +1,2 @@
+export const products=[{id:'bolsa',name:'Bolsa Aurora',category:'Bolsas',type:'Pronta entrega',price:189.9,stock:3,description:'Bolsa artesanal em crochê, inspirada nos tons naturais.'},{id:'ceramica',name:'Vaso Raízes',category:'Decoração',type:'Artesanal',price:89.9,stock:1,description:'Peça decorativa com formas orgânicas.'},{id:'brincos',name:'Brincos Sol',category:'Brincos',type:'Pronta entrega',price:49.9,stock:0,description:'Acessório delicado inspirado na natureza.'}];
+export const money=(n:number)=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
